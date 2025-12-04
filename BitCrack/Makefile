@@ -46,7 +46,7 @@ OBJET = $(addprefix $(OBJDIR)/,            \
         CudaDevice/BitCrack-link.o)
 
 CXX        = g++
-CUDA       = /usr/local/cuda-12.5
+CUDA       = /usr/local/cuda
 CXXCUDA    = /usr/bin/g++
 NVCC       = $(CUDA)/bin/nvcc
 # nvcc requires joint notation w/o dot, i.e. "5.2" -> "52"
