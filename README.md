@@ -438,7 +438,7 @@ BitCrack.exe -b 64 -t 256 -p 1024 --stride 1 -m xpoint --keyspace 1:1fffffffff -
 - Edit the makefile and set up the appropriate CUDA SDK and compiler paths for nvcc.
 
     ```make
-    CUDA       = /usr/local/cuda-11.0
+    CUDA       = /usr/local/cuda
     CXXCUDA    = /usr/bin/g++
     ```
  - To build with CUDA: pass CCAP value according to your GPU compute capability
